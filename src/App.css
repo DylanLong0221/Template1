@@ -112,15 +112,45 @@ main {
 
 /*Home/Services/proj/clie*/
 
-
-
-
-
-
-
-
-
-
-.a {
-	height: 2000px;
+.ColWrap {
+	height: 490px;
+	width: 100%;
+	background-color: #FAFAFA;
+	display: flex;
+	justify-content: center;
 }
+
+.Block {
+	height: 345px;
+	width: 305px;
+	background-color: #0C3C60;
+	margin: 70px 40px 0 40px;
+}
+
+.Serv {
+	color: #D1E0EB;
+	padding-top: 35px;
+	letter-spacing: 0.07rem;
+}
+
+.ImAPar {
+	padding: 25px 25px 0 25px;
+	color: white;
+	letter-spacing: 0.02rem;
+}
+
+.MoreInfo {
+	background-color: #6EA4CA;
+	padding: 15px 35px 15px 35px;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 40px;
+}
+
+.MoreInfo:hover {
+	transition: .2s;
+	color: #20577D;
+}
+
+/*Home/About us*/

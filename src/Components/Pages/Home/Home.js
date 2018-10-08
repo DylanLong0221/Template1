@@ -1,11 +1,13 @@
 import React from 'react';
 import Paralex from './HomeItems/Paralex';
-import Collums from './HomeItems/Collums';
+import Collums from './HomeItems/Collums/Collums';
+import AboutUs from './HomeItems/AboutUs';
 
 const home = (props) => (
 	<div>
 		<Paralex/>
 		<Collums/>
+		<AboutUs/>
 	</div>
 
 	);
