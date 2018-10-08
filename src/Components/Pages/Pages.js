@@ -1,11 +1,9 @@
 import React from 'react';
+import Home from './Home/Home';
 
 const pages = () => (
 	<main>
-		<div>test1</div>
-		<div>test2</div>
-		<div>test33</div>
-		test
+		<Home/>
 	</main>
 	);
 

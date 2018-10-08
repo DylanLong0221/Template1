@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .App {
@@ -14,30 +14,35 @@
 	background-color: #0C3C60;
 	height: 90px;
 	width: 100%;
+	z-index: 100;
+}
+
+.title {
+	font-size: 22px;
+	letter-spacing: 0.06em;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 36px;
+	float: left;
+	margin-left: 450px;
+}
+.title:hover{
+cursor: pointer;
 }
 
 .James {
-	display: inline-block;
-	margin-right: 10px;
-	margin-top: 30px;
-	float: left;
-	margin-left: 450px;
 	color: white;
-	font-size: 27px;
+	margin-right: 5px;
 }
 
 .Consulting {
-	display: inline-block;
-	float: left;
-	margin-top: 30px;
 	color: #6CB5C8;
-	font-size: 27px;
 }
 
 .Unordered{
 	list-style-type: none;
 	color: white;
-	margin-top: 17px;
+	margin-top: 22px;
 	font-size: 13px;
 }
 
@@ -53,7 +58,69 @@
 	transition: 0.1s;
 }
 
-/*Main*/
+/*Main/home*/
 main {
 	padding-top: 90px;
+}
+
+.ParWrapper {
+	height: 690px;
+	width: 100%;
+	background-color: black;
+	position: relative;
+}
+
+.Par {
+	background-image: url("./Assets/homebg.png");
+	height:690px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.BotPar {
+	height: 140px;
+	width: 100%;
+	background-color: white;
+	z-index: 10;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.6;
+}
+
+.Dev {
+	z-index: 100;
+	padding-top: 20px;
+	font-size:20px;
+	color: #0C3C60;
+	position: relative;
+	bottom: 6.7em;
+}
+
+.Ach {
+	z-index: 100;
+	padding-top: 20px;
+	font-size:3.5rem;
+	color: #0C3C60;
+	position: relative;
+	bottom: 2.3em;
+	letter-spacing: 0.3rem;
+}
+
+/*Home/Services/proj/clie*/
+
+
+
+
+
+
+
+
+
+
+.a {
+	height: 2000px;
 }
