@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const title = () => (
 	<div className="title">
-		<span className="James">JAMES</span><span className="Consulting">CONSULTING</span>
+		<Link className="none" to="/"><span className="James">JAMES</span><span className="Consulting">CONSULTING</span></Link>
 	</div>
 
 	);
