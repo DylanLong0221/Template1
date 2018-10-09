@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
+	text-overflow: hidden;
 }
 
 .App {
@@ -214,9 +215,75 @@ main {
 	width: 100%;
 	height: 940px;
 	background-color: #0C3C60;
+	position: relative;
+}
+
+.contactUsWrap iframe{
+	position: absolute;
+	bottom: 24.7%;
+	left: 25.3%;
+}
+
+.contactUsWrap h3{
+	font-size: 4rem;
+	color: white;
+	letter-spacing: 0.04rem;
+	padding-top: 5rem;
+}
+
+.contactUsWrap p{
+	color: white;
+	display: block;
+	position: relative;
+	left: 60%;
+	top: 10%;
+	width: 200px;
+}
+
+.A {
+	position: relative;
+	color:white;
+	top: 5.9rem;
+	left: 18.3rem;
+}
+
+.FormWrap {
+	width: 100px;
+	display: block;
+	position: absolute;
+	left: 57%;
+	bottom: 27%;
+}
+
+.contactUsWrap input{
+	height: 30px;
+	width: 340px;
+	margin: 0px 0 20px 0;
+}
+
+.contactUsWrap textarea {
+	height: 130px;
+	width: 340px;
+}
+
+.FormBut {
+	color: white;
+	padding: 10px 50px 10px 50px;
+	background-color: #6EA4CA;
+	border: none;
+	position: relative;
+	left: 12rem;
+	top: 10px;
+}
+
+.FormBut:hover {
+	cursor: pointer;
+	transition: 0.2s;
+	color: #0C3C60;
 }
 
 /*make about and contact fade in*/
+/*Footer for all pages*/
 
 .FooterWrapper {
 	width: 100%;
