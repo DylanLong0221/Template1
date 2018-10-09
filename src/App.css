@@ -64,6 +64,16 @@ cursor: pointer;
 	padding: 20px;
 }
 
+.Unordered a {
+	text-decoration: none;
+	color: white;
+}
+
+.Unordered a:hover{
+	color: #A4A6D4;
+	transition: 0.1s;
+}
+
 
 /*Main/home*/
 main {

@@ -8,7 +8,7 @@ import About from './Components/Pages/About/About';
 import Services from './Components/Pages/Services/Services';
 import Projects from './Components/Pages/Projects/Projects';
 import Clients from './Components/Pages/Clients/Clients';
-import Contact from './Components/Pages/Contact/Contact';
+
 
 class App extends Component {
   render() {
@@ -21,7 +21,6 @@ class App extends Component {
                 <Route path="/services" component={Services}/>
                 <Route path="/projects" component={Projects}/>
                 <Route path="/clients" component={Clients}/>
-                <Route path="/contact" component={Contact}/>
             </Switch>
 	      </div>
     </Router>
