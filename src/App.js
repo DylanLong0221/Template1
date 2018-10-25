@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 
-import Layout from './Containers/Layout';
+import Home from './Containers/Home';
 import About from './Components/Pages/About/About';
 import Services from './Components/Pages/Services/Services';
 import Projects from './Components/Pages/Projects/Projects';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
     <Router>
 	      <div className="App"> 
-	        <Route path="/" exact component={Layout}/>
+	        <Route path="/" exact component={Home}/>
 	        <Switch>
                 <Route path="/about"  component={About}/>
                 <Route path="/services" component={Services}/>

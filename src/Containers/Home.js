@@ -17,8 +17,3 @@ const layout = (props) => {
 
 export default layout;
 
-// Should look like when done
-// <Header/>
-// <Pages/>
-// <Footer/>
-// with browerser router and links to 

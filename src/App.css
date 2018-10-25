@@ -19,8 +19,6 @@
 	z-index: 1000;
 }
 
-
-
 .to {
 	text-decoration: none;
 	color: white;
@@ -282,9 +280,18 @@ main {
 	color: #0C3C60;
 }
 
-/*make about and contact fade in*/
-/*Footer for all pages*/
+/*About Page*/
 
+.AboutWrap {
+	padding-top: 90px;
+	color: black;
+	font-size: 20px;
+}
+
+/*Footer for all pages*/
+.b {
+	color:white;
+}
 .FooterWrapper {
 	width: 100%;
 	height: 105px;
