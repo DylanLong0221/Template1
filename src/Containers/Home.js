@@ -1,19 +1,20 @@
 import React from 'react';
+// Components
 import Header from '../Components/Header/header';
-import Pages from '../Components/Pages/Pages';
+import Home from '../Components/Pages/Home/Home';
 import Footer from '../Components/Footer/Footer';
 
-const layout = (props) => {
+const home = (props) => {
 
 
 	return (
 		<div>
 			<Header/>
-			<Pages/>
+			<Home/>
 			<Footer/>
 		</div>
 		);
 }
 
-export default layout;
+export default home;
 

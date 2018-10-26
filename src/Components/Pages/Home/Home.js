@@ -15,7 +15,3 @@ const home = (props) => (
 	);
 
 export default home;
-// picture/acheiving growth
-// div with 3 divs of etc
-// about us 
-// contact
