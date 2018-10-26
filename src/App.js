@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
+import Scroll from './Containers/Scroll';
 
 import Home from './Containers/Home';
 import About from './Components/Pages/About/About';
@@ -14,6 +15,7 @@ class App extends Component {
   render() {
     return (
     <Router>
+    <Scroll>
     <div className="App"> 
             <Switch>
 	            <Route path="/" exact component={Home}/>
@@ -23,6 +25,7 @@ class App extends Component {
                 <Route path="/clients" component={Clients}/>
             </Switch>
 	      </div>
+     </Scroll>     
     </Router>
     );
   }

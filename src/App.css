@@ -362,6 +362,51 @@ margin-bottom: 80px;
 	padding-top: 90px;
 }
 
+.ServicesWrap h1 {
+	font-size: 4em;
+	letter-spacing: 0.1em;
+	color: #6EA4CA;
+	margin-top: 70px;
+}
+
+.ServPara {
+	width: 685px;
+	height: 70px;
+	margin-left: 32%;
+	color: #6EA4CA;
+	font-weight: bold;
+}
+
+.ServWrap {
+	display: flex;
+	justify-content: center;
+}
+
+.ServicesWrap img {
+	height: 200px;
+	width: 295;
+	overflow: hidden;
+}
+
+.ServiceHolder {
+	height: 450px;
+	width: 325px;
+	border: 0.034rem solid #CBC3C3;
+	margin: 90px 20px 50px 20px;
+}
+
+.BookNow {
+	padding: 13px 20px 13px 20px;
+	background-color: #6EA4CA;
+	color: white;
+	margin-top: 80px;
+}
+
+.BookNow:hover {
+	transition: 0.4s;
+	background-color: #4E7FA1;
+}
+
 /*Service Book Page*/
 
 /*Projects Page*/

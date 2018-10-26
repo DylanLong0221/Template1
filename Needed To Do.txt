@@ -5,6 +5,4 @@
 5. add service book now page
 6. Ifrane Google Maps Is causing a warning to be thrown in connole
 
-About
-7. Make footer stay at the botoom of the pge
-8. get people aligned 4 
+Add Service Page Plus Book Page
