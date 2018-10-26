@@ -397,14 +397,81 @@ margin-bottom: 80px;
 .ProWrap h4 {
 	padding-bottom: 30px;
 	position: relative;
-	right: 25%;
+	right: 23%;
 	color: #39729B;
 	font-size: 1.4rem;
+	letter-spacing: 0.05rem;
 }
 
 /*Clients Page*/
 .ClientPageWrap{
 	padding-top: 90px;
+}
+
+.ClientPageWrap h1 {
+	padding-top: 70px;
+	color: #6EA4CA;
+	font-size: 60px;
+	letter-spacing: 0.4rem;
+}
+
+.ClientPara {
+	color: #4A95CB;
+	width: 690px;
+	height: 65px;
+	margin: 5rem 0 100px 39rem;
+}
+
+.Line1 img {
+	margin-right: 100px;
+	margin-bottom: 75px;
+	position: relative;
+	left: 70px;
+}
+
+.Line2 img {
+	margin-right: 110px;
+	position: relative;
+	left: 87px;
+}
+
+.ClientsBox {
+	height: 100px;
+	width: 920px;
+	background-color: #39729B;
+	color: white;
+	font-style: italic;
+	position: relative;
+	left: 27%;
+	margin: 110px 0 20px 0;
+}
+
+.ClientsBox p{
+	padding-top: 2rem;
+	font-size: .9em;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.Sam {
+	margin-bottom: 70px;
+	margin-top: 50px;
+	color: #39729B;
+	font-size: 1em;
+	padding-left: 2%;
+}
+
+.ArrowDiv:after {
+    border-top: 20px solid #39729B;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    bottom: -85px;
+    content: "";
+    position: absolute;
+    left: 52%;
+    margin-left: -21px;
+    width: 0; 
+    height: 0;
 }
 
 /*Footer for all pages*/
@@ -415,8 +482,6 @@ margin-bottom: 80px;
 	width: 100%;
 	height: 105px;
 	background-color: #0C3C60;
-	
-
 }
 
 .FooterWrapper img {
