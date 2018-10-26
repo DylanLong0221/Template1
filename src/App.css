@@ -294,11 +294,17 @@ main {
 	padding-top: 90px;
 }
 
+/*Service Book Page*/
+
 /*Projects Page*/
 .ProjPageWrap {
 	padding-top:90px;
 }
 
+/*Clients Page*/
+.ClientPageWrap{
+	padding-top: 90px;
+}
 
 /*Footer for all pages*/
 .b {
