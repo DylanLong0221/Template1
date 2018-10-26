@@ -12,14 +12,24 @@ import Trevor from '../../../Assets/pic4.png';
 const about = () => (
 	<div>
 		<Header/>
-		<div className="AboutWrap">
+		<div className="AboutWrap"> 
 			<h1><span>ABOUT</span></h1>
-			<hr/>
-			<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-			<People img={James} Name="James Johnson" Job="Founder and Principal"/>
-			<People img={Samantha} Name="Samantha Jones" Job="Project Manager"/>
-			<People img={Kim} Name="Kim Bailey" Job="VP Marketing"/>
-			<People img={Trevor} Name="Trevor Sinclair" Job="VP Accounts"/>
+			<div className="Line"/>
+			<p className="AboutParaDown">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+			<div className="WrapperForPeople">
+
+
+				<div className="A">
+				<People img={James} Name="James Johnson" Job="Founder and Principal"/>
+				<People img={Samantha} Name="Samantha Jones" Job="Project Manager"/>
+				</div>
+				<div className="B">
+				<People img={Kim} Name="Kim Bailey" Job="VP Marketing"/>
+				<People img={Trevor} Name="Trevor Sinclair" Job="VP Accounts"/>
+				</div>
+
+
+			</div>
 		</div>
 		<Footer/>
 	</div>

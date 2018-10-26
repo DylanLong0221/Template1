@@ -4,7 +4,7 @@ const colItem = (props) => (
 	<div className="Block">
 		<h3 className="Serv">{props.title}</h3>
 		<p className="ImAPar">{props.par}</p>
-		<a href='/' className="MoreInfo">More Info</a>
+		<a href={props.link} className="MoreInfo">More Info</a>
 	</div>
 
 	);

@@ -21,8 +21,8 @@ const contactUs = () => (
 		title="Map"
 		width="485" 
 		height="470" 
-		frameborder="0" 
-		style={{border:"0"}} allowfullscreen></iframe>
+		frameBorder="0" 
+		style={{border:"0"}} allowFullScreen></iframe>
 	</div>
 	);
 
