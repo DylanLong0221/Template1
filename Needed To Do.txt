@@ -1,3 +1,5 @@
 1. Add scrolling effect that text fades in on scroll down home page
 2. everything needs to be changed for mobile on css
 3. make email box red when clicked but nothing entered Form Home
+4. Everypage needs to fade in from top down
+5. add service book now page

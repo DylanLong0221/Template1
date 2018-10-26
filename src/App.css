@@ -288,6 +288,13 @@ main {
 	font-size: 20px;
 }
 
+/*Services Page*/
+
+.ServicesWrap {
+	padding-top: 90px;
+}
+
+
 /*Footer for all pages*/
 .b {
 	color:white;
