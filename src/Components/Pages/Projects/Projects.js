@@ -14,7 +14,7 @@ const projects = () => (
 		<Header/>
 			<div className="ProjPageWrap">
 				<h1><span>PROJECTS</span></h1>
-				<hr/>
+				<div className="Line"></div>
 				<Project img={Proj1} title="PROJECT 1" para="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you." />
 				<Project img={Proj2} title="PROJECT 2" para="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you." />
 				<Project img={Proj3} title="PROJECT 3" para="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you." />

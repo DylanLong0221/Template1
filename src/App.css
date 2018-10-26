@@ -10,6 +10,14 @@ body {
 	height: 100%;
 }
 
+.Line {
+	width: 90px;
+	height: 5px;
+	background-color: #6EA4CA;
+	margin-left: 48%;
+	margin-bottom: 70px;
+}
+
 .App {
   text-align: center;
 }
@@ -299,14 +307,6 @@ main {
 	letter-spacing: 0.4rem;
 }
 
-.Line {
-	width: 90px;
-	height: 5px;
-	background-color: #6EA4CA;
-	margin-left: 48%;
-	margin-bottom: 70px;
-}
-
 .AboutParaDown {
 	color: yellow;
 	width: 685px;
@@ -325,6 +325,10 @@ main {
 
 .AboutBg img {
 	float: left;
+}
+
+.AboutBg span {
+	color: #9B9696;
 }
 
 .AboutName {
@@ -365,6 +369,39 @@ margin-bottom: 80px;
 	padding-top:90px;
 }
 
+.ProjPageWrap h1 {
+	padding-top: 70px;
+	color: #6EA4CA;
+	font-size: 60px;
+	letter-spacing: 0.4rem;
+}
+
+.ProWrap {
+	width: 860px;
+	margin-left: 27%;
+	padding-bottom: 200px;
+}
+
+.ProWrap p {
+	font-size: 1rem;
+	color: #39729B;
+	word-break: normal;
+	text-align: left;
+}
+
+.ProWrap img {
+	float: left;
+	padding-right: 50px;
+}
+
+.ProWrap h4 {
+	padding-bottom: 30px;
+	position: relative;
+	right: 25%;
+	color: #39729B;
+	font-size: 1.4rem;
+}
+
 /*Clients Page*/
 .ClientPageWrap{
 	padding-top: 90px;
@@ -393,5 +430,3 @@ margin-bottom: 80px;
 	color: white;
 	padding-top: 50px;
 }
-
-/*Test*/
